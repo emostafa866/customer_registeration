@@ -4,11 +4,12 @@ server:
 spring:
   application:
     name: customer
-
+  liquibase:
+    change-log: classpath:db/master.xml
   datasource:
-    username: 'postgres'
-    url: jdbc:postgresql://localhost:5432/customer-register?
-    password: 'postgres'
+    username: 'root'
+    url: jdbc:postgresql://localhost:5432/customer?
+    password: 'root'
     jpa:
       properties:
         hibernate:
@@ -18,10 +19,7 @@ spring:
         ddl-auto: none
       show-sql: 'true'
     driver-class-name: org.postgresql.Driver
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
+
 
   logging:
     level:

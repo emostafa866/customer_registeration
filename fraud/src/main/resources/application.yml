@@ -4,25 +4,23 @@ server:
 spring:
   application:
     name: fraud
-
+  liquibase:
+    change-log: classpath:db/master.xml
   datasource:
-    username: 'postgres'
+    username: 'root'
     url: jdbc:postgresql://localhost:5432/fraud?
-    password: 'postgres'
+    password: 'root'
     jpa:
       properties:
         hibernate:
           dialect: org.hibernate.dialect.PostgreSQLDialect
           format_sql: 'true'
       hibernate:
-        ddl-auto: update
+        ddl-auto: none
       show-sql: 'true'
 
   logging:
     level:
       org.hibernate.SQL: debug
       org.hibernate.type.descriptor.sql.BasicBinder: trace
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
+

@@ -1,16 +1,26 @@
-version: '3'
+version: '3.8'
 
 services:
-  postgres:
-    image: postgres
+  postgres_container:
+    image: postgres:13  # Use a valid image and version
     environment:
-      POSTGRES_DB: mydatabase
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
-    ports:
-      - "5432:5432"
+      POSTGRES_DB: mydatabase
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  pgadmin_container:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "80:80"
+    depends_on:
+      - postgres_container
 
 volumes:
   postgres_data:
