@@ -15,6 +15,10 @@ public record CustomerController(CustomerService customerService) {
 
     @GetMapping(path = "{email}")
     public Customer getCustomerByUsername(@PathVariable String email){
-        return customerService.findCustomerByEmail(email);
+        log.info("get customer by username " + email);
+
+         Customer customer = customerService.findCustomerByEmail(email);
+         log.info(" customer msisdn is ::  "+customer.getMsisdn() + " and customer firstName is ::  "+customer.getFirstName());
+        return customer;
     }
 }

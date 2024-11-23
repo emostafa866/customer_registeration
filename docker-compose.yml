@@ -1,3 +1,31 @@
+#version: '3.8'
+#
+#services:
+#  postgres_container:
+#    image: postgres:13  # Use a valid image and version
+#    environment:
+#      POSTGRES_USER: root
+#      POSTGRES_PASSWORD: root
+#      POSTGRES_DB: mydatabase
+#    volumes:
+#      - postgres_data:/var/lib/postgresql/data
+#    ports:
+#      - "5432:5432"
+#
+#  pgadmin_container:
+#    image: dpage/pgadmin4
+#    environment:
+#      PGADMIN_DEFAULT_EMAIL: admin@example.com
+#      PGADMIN_DEFAULT_PASSWORD: admin
+#    ports:
+#      - "80:80"
+#    depends_on:
+#      - postgres_container
+#
+#volumes:
+#  postgres_data:
+
+
 version: '3.8'
 
 services:
@@ -10,7 +38,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5433:5432"  # Changed host port to 5433
 
   pgadmin_container:
     image: dpage/pgadmin4
@@ -22,5 +50,29 @@ services:
     depends_on:
       - postgres_container
 
+  keycloak:
+    image: custom-keycloak:18.0.2  # Use the custom image you just built
+    environment:
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=admin
+      - KC_DB=postgres
+      - KC_DB_URL=jdbc:postgresql://keycloak-db:5432/keycloak
+      - KC_DB_USERNAME=keycloak
+      - KC_DB_PASSWORD=keycloak
+    ports:
+      - "8180:8080"
+    depends_on:
+      - keycloak-db
+
+  keycloak-db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloak
+    volumes:
+      - keycloak_postgres_data:/var/lib/postgresql/data
+
 volumes:
   postgres_data:
+  keycloak_postgres_data:
