@@ -22,4 +22,5 @@ public class Customer {
     private String email;
     private String msisdn;
     private String password;
+
 }

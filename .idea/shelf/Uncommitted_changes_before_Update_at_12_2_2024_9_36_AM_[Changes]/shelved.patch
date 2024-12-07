@@ -1,0 +1,169 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5270fbf1-2d8d-479c-bbee-5441e35411a1\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/codeStyles/Project.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/clients/src/main/java/com/clients/Customer.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/customer/src/main/resources/db/changelog/customer-password-lenght.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/customer/src/main/resources/db/changelog/customer01.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/customer/src/main/resources/db/changelog/customerPassword.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/customer/src/main/resources/db/master.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/fraud/src/main/resources/db/changelog/fraudTable01.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/fraud/src/main/resources/db/master.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/keycloak/Dockerfile\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/keycloak/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/encodings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/clients/src/main/java/com/clients/FraudClient.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/clients/src/main/java/com/clients/FraudClient.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/Customer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/Customer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerApplication.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerApplication.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRegisterationReq.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRegisterationReq.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRepo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRepo.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerService.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/customer/src/main/resources/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/customer/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docker-compose.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docker-compose.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/fraud/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fraud/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudApplication.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudApplication.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudCheckHistory.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudCheckHistory.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudService.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/fraud/src/main/resources/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fraud/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Record\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"KubernetesApiPersistence\">{}</component>\r\n  <component name=\"KubernetesApiProvider\">{\r\n  &quot;isMigrated&quot;: true\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"userSettingsFile\" value=\"C:\\Users\\ELOkdaM\\.m2\\settingss.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2VFRZyqeKq74XactMsdjQiH4lQ6\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor\": \"Run\",\r\n    \"Maven.clients [clean].executor\": \"Run\",\r\n    \"Maven.clients [install].executor\": \"Run\",\r\n    \"Maven.customer [clean].executor\": \"Run\",\r\n    \"Maven.customer [install].executor\": \"Run\",\r\n    \"Maven.customer_registeration [clean].executor\": \"Run\",\r\n    \"Maven.customer_registeration [install].executor\": \"Run\",\r\n    \"Maven.keycloak [clean].executor\": \"Run\",\r\n    \"Maven.keycloak [package].executor\": \"Run\",\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"Spring Boot.CustomerApplication.executor\": \"Run\",\r\n    \"Spring Boot.FraudApplication.executor\": \"Run\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"jdk.selected.JAVA_MODULE\": \"17\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"D:/projects/customer_registeration/keycloak\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"run.configurations.included.in.services\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"MavenSettings\",\r\n    \"spring.configuration.checksum\": \"4e2f628f75e3841d800f8572e08b4f35\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"com.meo\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\projects\\customer_registeration\\fraud\\src\\main\\resources\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.clients\" />\r\n      <recent name=\"com.meo\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"MicronautRunConfigurationType\" />\r\n        <option value=\"QuarkusRunConfigurationType\" />\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.FraudApplication\">\r\n    <configuration name=\"CustomerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"customer\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.meo.CustomerApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.meo.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EurekaServerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"eureka-server\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.meo.euerka.EurekaServerApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.meo.euerka.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FraudApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"fraud\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.meo.FraudApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.meo.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NotificationApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"notification\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.meo.notification.NotificationApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.meo.notification.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\">\r\n      <deployment type=\"docker-compose.yml\">\r\n        <settings />\r\n      </deployment>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Spring Boot.FraudApplication\" />\r\n        <item itemvalue=\"Spring Boot.CustomerApplication\" />\r\n        <item itemvalue=\"Spring Boot.NotificationApplication\" />\r\n        <item itemvalue=\"Spring Boot.EurekaServerApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5270fbf1-2d8d-479c-bbee-5441e35411a1\" name=\"Changes\" comment=\"\" />\r\n      <created>1694429902267</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1694429902267</updated>\r\n      <workItem from=\"1694429903995\" duration=\"9493000\" />\r\n      <workItem from=\"1697733927986\" duration=\"2922000\" />\r\n      <workItem from=\"1697803589290\" duration=\"1836000\" />\r\n      <workItem from=\"1697805870514\" duration=\"16992000\" />\r\n      <workItem from=\"1698406743910\" duration=\"329000\" />\r\n      <workItem from=\"1698407467119\" duration=\"206000\" />\r\n      <workItem from=\"1698408307473\" duration=\"4409000\" />\r\n      <workItem from=\"1698423800607\" duration=\"880000\" />\r\n      <workItem from=\"1698426767229\" duration=\"18609000\" />\r\n      <workItem from=\"1698783466030\" duration=\"2215000\" />\r\n      <workItem from=\"1699037616575\" duration=\"735000\" />\r\n      <workItem from=\"1699038814989\" duration=\"7198000\" />\r\n      <workItem from=\"1699190433754\" duration=\"5439000\" />\r\n      <workItem from=\"1699634930258\" duration=\"151000\" />\r\n      <workItem from=\"1700610208661\" duration=\"836000\" />\r\n      <workItem from=\"1703707018944\" duration=\"1674000\" />\r\n      <workItem from=\"1703863149956\" duration=\"2786000\" />\r\n      <workItem from=\"1706274171752\" duration=\"3756000\" />\r\n      <workItem from=\"1707588787089\" duration=\"586000\" />\r\n      <workItem from=\"1730708889946\" duration=\"9320000\" />\r\n      <workItem from=\"1730790885265\" duration=\"16955000\" />\r\n      <workItem from=\"1730915046548\" duration=\"869000\" />\r\n      <workItem from=\"1730916874910\" duration=\"3347000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 27106a79afe3f60019105da1b202129bf2ed1040)
++++ b/.idea/workspace.xml	(date 1733124992811)
+@@ -4,37 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5270fbf1-2d8d-479c-bbee-5441e35411a1" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/clients/Customer.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/db/changelog/customer-password-lenght.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/db/changelog/customer01.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/db/changelog/customerPassword.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/db/master.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/db/changelog/fraudTable01.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/db/master.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/keycloak/Dockerfile" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/keycloak/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++    <list default="true" id="5270fbf1-2d8d-479c-bbee-5441e35411a1" name="Changes" comment="keycloak setup">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/clients/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/clients/FraudClient.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/meo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/meo/Customer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerApplication.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRegisterationReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRegisterationReq.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerRepo.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/meo/CustomerService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudApplication.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudCheckHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudCheckHistory.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/meo/FraudService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -79,50 +50,51 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+-    "Maven.clients [clean].executor": "Run",
+-    "Maven.clients [install].executor": "Run",
+-    "Maven.customer [clean].executor": "Run",
+-    "Maven.customer [install].executor": "Run",
+-    "Maven.customer_registeration [clean].executor": "Run",
+-    "Maven.customer_registeration [install].executor": "Run",
+-    "Maven.keycloak [clean].executor": "Run",
+-    "Maven.keycloak [package].executor": "Run",
+-    "RequestMappingsPanelOrder0": "0",
+-    "RequestMappingsPanelOrder1": "1",
+-    "RequestMappingsPanelWidth0": "75",
+-    "RequestMappingsPanelWidth1": "75",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "Spring Boot.CustomerApplication.executor": "Run",
+-    "Spring Boot.FraudApplication.executor": "Run",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "master",
+-    "jdk.selected.JAVA_MODULE": "17",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "D:/projects/customer_registeration/keycloak",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "run.configurations.included.in.services": "true",
+-    "settings.editor.selected.configurable": "MavenSettings",
+-    "spring.configuration.checksum": "4e2f628f75e3841d800f8572e08b4f35",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.clients [clean].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.clients [install].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.customer [clean].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.customer [install].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.customer_registeration [clean].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.customer_registeration [install].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.keycloak [clean].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.keycloak [package].executor&quot;: &quot;Run&quot;,
++    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
++    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
++    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
++    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;Spring Boot.CustomerApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Spring Boot.FraudApplication.executor&quot;: &quot;Run&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/projects/customer_registeration/keycloak&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
++    &quot;spring.configuration.checksum&quot;: &quot;4e2f628f75e3841d800f8572e08b4f35&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CreateClassDialog.RecentsKey">
+       <recent name="com.meo" />
+     </key>
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\projects\customer_registeration\keycloak" />
+       <recent name="D:\projects\customer_registeration\fraud\src\main\resources" />
+     </key>
+     <key name="CopyClassDialog.RECENTS_KEY">
+@@ -245,11 +217,27 @@
+       <workItem from="1730708889946" duration="9320000" />
+       <workItem from="1730790885265" duration="16955000" />
+       <workItem from="1730915046548" duration="869000" />
+-      <workItem from="1730916874910" duration="3347000" />
++      <workItem from="1730916874910" duration="4136000" />
++      <workItem from="1731232834337" duration="947000" />
++      <workItem from="1732454742769" duration="1390000" />
++      <workItem from="1732613957608" duration="1638000" />
+     </task>
++    <task id="LOCAL-00001" summary="keycloak setup">
++      <option name="closed" value="true" />
++      <created>1731173956756</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1731173956756</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="keycloak setup" />
++    <option name="LAST_COMMIT_MESSAGE" value="keycloak setup" />
++  </component>
+ </project>
+\ No newline at end of file

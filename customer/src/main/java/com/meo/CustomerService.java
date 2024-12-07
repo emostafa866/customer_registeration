@@ -23,7 +23,9 @@ public class CustomerService {
                 .msisdn(requset.msisdn())
                 .password(passwordEncoder.encode(requset.password()))
                 .build();
-
+        if (customerRepo.findByEmail(requset.email()) !=null) {
+            throw new IllegalArgumentException("Email already in use");
+        }
         customerRepo.saveAndFlush(customer);
         FraudResponse response=fraudClient.isFraudster(customer.getId(), customer.getMsisdn());
 

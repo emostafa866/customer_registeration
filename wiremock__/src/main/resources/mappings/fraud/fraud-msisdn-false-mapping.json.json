@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/fraud-check\\?msisdn=01010535650"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "fraud/msisdn-true-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
